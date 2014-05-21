@@ -1,0 +1,143 @@
+#main-header {
+	height: 38px;
+	background-color: #94519f;
+	padding-left: 5%;
+
+
+}
+#breadcrumbs {
+	height: 25px;
+	background-color: #white;
+	border: 1px solid #ebebeb;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 0.8em;
+	padding-top: 11px;
+	padding-left: 5%;
+	color: #94519f;
+
+}
+
+#breadcrumbs a {
+	text-decoration: none;
+	color: #94519f;
+}
+
+body {
+	margin: 0 0 0 0;
+}
+
+#container {
+	width: 90%;
+	padding: 5% 5% 5% 5%;
+}
+
+#left-column {
+	width: 25%;
+	float: left;
+	padding-right: 5%;
+}
+
+#right-column {
+	width: 60%;
+	float: right;
+}
+
+h1, h2, h3, p, span {
+	font-family: Helvetica, Arial, Sans-serif;
+	color: #94519f;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+#brief-description {
+	line-height: 1.6;
+	font-size: 0.9em;
+	margin-bottom: 30px;
+}
+h2 {
+	font-weight: normal;
+	font-size: 1.7em;
+}
+
+p, span {
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 0.8em;
+	color: #808080;
+}
+
+span {
+	max-width: 480px;
+}
+
+article {
+	max-width: 540px;
+	padding-bottom: 20px;
+}
+
+#footer {
+	border-top: 1px solid #ebebeb;
+	padding-top: 20px;
+	margin: auto;
+		max-width: 540px;
+	font-family: Helvetica, Arial, Sans-serif;
+	color: #808080;
+}
+
+button {
+	background-color: #94519f;
+    color: white;
+    width: 140px;
+    height: 40px;
+
+}
+.button {
+	background-color: #94519f;
+	-webkit-border-top-left-radius:2px;
+	-moz-border-radius-topleft:2px;
+	border-top-left-radius:2px;
+	-webkit-border-top-right-radius:2px;
+	-moz-border-radius-topright:2px;
+	border-top-right-radius:2px;
+	-webkit-border-bottom-right-radius:2px;
+	-moz-border-radius-bottomright:2px;
+	border-bottom-right-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	-moz-border-radius-bottomleft:2px;
+	border-bottom-left-radius:2px;
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:140px;
+	text-decoration:none;
+	text-align:center;
+}
+.button:hover {
+	background-color:#83408e;
+}
+
+a {
+	text-decoration: none;
+}
+
+.post {
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+.subtitle {
+font-style: italic;
+}
+
+.text {
+	padding-top: 30px;
+	line-height: 1.7;
+	color: #333333;
+}
